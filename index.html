@@ -15,13 +15,13 @@
 	<script>
 		window.onload = function() {
 		  var referrer = document.referrer;
-		  if (referrer.startsWith("https://wn-einstufung.atex.co.at/grtest/")) {
+		  if (referrer.startsWith("https://grtest.wn-einstufung.plustraining.at/")) {
 			// Allow access
 			console.log("Allowed access from referrer: " + referrer);
 		  } else {
 			// Redirect to login page
 			console.log("Redirecting to login page");
-			window.location.href = "https://wn-einstufung.atex.co.at/grtest/";
+			window.location.href = "https://grtest.wn-einstufung.plustraining.at/login";
 		  }
 		}
 	  </script>	
