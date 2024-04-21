@@ -545,7 +545,7 @@ function submit() {
 	$("#complete a.button").text("Bitte warten | Please wait");
 	
 	//submit data
-	$.post("submit.php", data, function() {
+	$.post("https://wn-einstufung.atex.co.at/grtest/submit.php", data, function() {
 		$("#complete a.button").text("Ihre Ergebnisse wurden an die Plus Training OG übermittelt | Your results have been submitted to Plus Training OG");
 		submitted = true;
 	}, "html");
