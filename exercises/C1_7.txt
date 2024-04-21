@@ -1,0 +1,51 @@
+<fieldset data-points="1" data-time="90">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<ul class="list-conversation">
+			<li class="speaker-a"><i>Herbert:</i> Hallo Aliya, hier spricht Herbert! Da du 
+				<select id="C1_7_1">
+					<option value="" selected disabled>Wählen Sie …</option>
+					<option>aber</option>
+					<option>mal</option>
+					<option>denn</option>
+					<option>ja</option>
+					<option disabled>– – –</option>
+					<option class="dontknow">Ich weiß nicht.</option>
+				</select> nie anrufst, muss also mal wieder ich mich bei dir melden.
+			</li>
+			<li class="speaker-b"><i>Aliya:</i> Hallo Herbert. Ich habe
+				<select id="C1_7_2">
+					<option value="" selected disabled>Wählen Sie …</option>
+					<option>denn</option>
+					<option>trotzdem</option>
+					<option>halt</option>
+					<option>mal</option>
+					<option disabled>– – –</option>
+					<option class="dontknow">Ich weiß nicht.</option>
+				</select> viel zu tun.
+			</li>
+			<li class="speaker-a"><i>Herbert:</i> Ach ja? Was machst du 
+				<select id="C1_7_3">
+					<option value="" selected disabled>Wählen Sie …</option>
+					<option>doch</option>
+					<option>denn</option>
+					<option>vielleicht</option>
+					<option>ja</option>
+					<option disabled>– – –</option>
+					<option class="dontknow">Ich weiß nicht.</option>
+				</select> die ganze Zeit? Du wirst doch einmal kurz Zeit für einen schnellen Anruf haben!
+			</li>
+			<li class="speaker-b"><i>Aliya:</i> Du hast 
+				<select id="C1_7_4">
+					<option value="" selected disabled>Wählen Sie …</option>
+					<option>ja</option>
+					<option>eben</option>
+					<option>doch</option>
+					<option>denn</option>
+					<option disabled>– – –</option>
+					<option class="dontknow">Ich weiß nicht.</option>
+				</select> Recht. Aber es ist eben nicht so einfach.
+			</li>
+		</ul>
+	</div>
+</fieldset>

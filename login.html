@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plus Training OG WN Einstufung | Login</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="data.js?v=0.2"></script>
+    <script type="text/javascript" src="engine.js?v=0.2"></script>
+    <script type="text/javascript">
+        function login() {
+            var accessCode = document.getElementById("access-code").value;
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "login.php", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        window.location.href = "index.html"; // Redirect to test.html if login successful
+                    } else {
+                        document.getElementById("error-message").innerHTML = "Zugangscode ungültig"; // Show error message if login unsuccessful
+                    }
+                }
+            };
+            xhr.send(JSON.stringify({ accessCode: accessCode }));
+        }
+
+        // Function to handle keydown event on access code input field
+        function handleKeyDown(event) {
+            if (event.keyCode === 13) { // Check if Enter key is pressed
+                event.preventDefault(); // Prevent default form submission behavior
+                login(); // Call login function
+            }
+        }
+    </script>
+    <style>
+        .button {
+            background-color: #2f2553;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: rgb(29, 18, 56);
+        }
+
+        .error-message {
+            color: #ff0000;
+        }
+
+        input:placeholder-shown {
+  font-size: 10px;
+}
+
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <img src="logo_bgwhite2.svg" alt="Plus Training OG" />
+        </div>
+        <div id="header-right">
+            <h1>Login</h1>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <form id="login-form">
+            <div id="welcome">
+                <div>
+                    <fieldset>
+                        <legend>Anmeldung</legend>
+                        <p>Geben Sie Ihren Zugangscode ein:</p>
+                        <ul class="contact-data">
+                            <li><label for="access-code" class="required"><span>Zugangscode:</span></label> <input style="font-size: 18px;" type="password" name="access-code" id="access-code" placeholder="Zugangscode eingeben" tabindex="91" onkeydown="handleKeyDown(event)"></li>
+                        </ul>
+                    </fieldset>
+                    <br>
+                    <button type="button" class="button" id="login-button" onclick="login()">Login</button>
+                </div>
+                <br>
+                <div id="error-message" class="error-message"></div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

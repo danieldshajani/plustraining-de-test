@@ -1,0 +1,12 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>Petra: „Ich möchte gerne auf Urlaub fahren!“</p>
+	<p>Petra sagt, …
+	<ul>
+		<li><input type="radio" id="A2_3_1" name="A2_3" value="… dass sie möchte gerne auf Urlaub fahren."></li>
+		<li><input type="radio" id="A2_3_2" name="A2_3" value="… dass möchte gerne sie auf Urlaub fahren."></li>
+		<li><input type="radio" id="A2_3_3" name="A2_3" value="… dass auf Urlaub sie gerne möchte fahren."></li>
+		<li><input type="radio" id="A2_3_4" name="A2_3" value="… dass sie gerne auf Urlaub fahren möchte."></li>
+		<li><input type="radio" id="A2_3_X" name="A2_3" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

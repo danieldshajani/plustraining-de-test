@@ -1,0 +1,44 @@
+<fieldset data-points="1" data-time="75">
+	<legend>Wählen Sie die richtige Antwort.</legend>
+	<div>
+		<p>„Gehst du mit uns in die Pizzaria?“</p>
+		<p>— Nein, tut mir leid, ich komme 
+			<select id="A1_3_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>kein</option>
+				<option>nicht</option>
+				<option>nein</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			. Ich habe 
+				<select id="A1_3_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>ohne</option>
+				<option>nicht</option>
+				<option>keine</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Zeit und 
+				<select id="A1_3_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>keinen</option>
+				<option>nicht</option>
+				<option>ohne</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Hunger. Und ich bin auch 
+				<select id="A1_3_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>kein</option>
+				<option>nicht</option>
+				<option>nein</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			durstig.
+		</p>
+	</div>
+</fieldset>

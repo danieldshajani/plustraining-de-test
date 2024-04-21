@@ -1,0 +1,54 @@
+<fieldset data-points="3" data-time="120">
+	<legend>Sie sehen Schilder. Wählen Sie aus: Richtig oder falsch?</legend>
+	<div>
+		<div class="image-container image-count-1">
+		<img src="images/schilder.png" alt="Vier Schilder: Fotografieren erlaubt. Rauchen verboten! Keine Handys! Helmpflicht: hier nur mit Helm!" >
+	</div>
+	</div>
+
+	<p>Richtig oder falsch?</p>
+	<ul>
+		<li><p>Sie dürfen hier nicht rauchen.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_1" name="A2_10_1" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_2" name="A2_10_1" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_1_X" name="A2_10_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie können hier keine Fotos machen.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_3" name="A2_10_2" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_4" name="A2_10_2" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_2_X" name="A2_10_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie sollen hier telefonieren.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_5" name="A2_10_3" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_6" name="A2_10_3" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_3_X" name="A2_10_3" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie dürfen hier fotografieren.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_7" name="A2_10_4" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_8" name="A2_10_4" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_4_X" name="A2_10_4" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie müssen hier keinen Helm tragen.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_9" name="A2_10_5" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_10" name="A2_10_5" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_5_X" name="A2_10_5" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie dürfen hier keinen Helm tragen.</p>
+			<ul>
+				<li><input type="radio" id="A2_10_11" name="A2_10_6" value="Richtig"></li>
+				<li><input type="radio" id="A2_10_12" name="A2_10_6" value="Falsch"></li>
+				<li><input type="radio" id="A2_10_6_X" name="A2_10_6" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

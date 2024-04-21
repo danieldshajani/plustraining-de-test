@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+[id^=module] {
+	display: block !important;
+}
+
+fieldset {
+	display: block !important;
+}
+
+#displayPage {
+	display: block;
+}
+
+#displayPage ul#displayPageList {
+	list-style: none;
+}
+
+#displayPage ul#displayPageList li {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#displayPage ul#displayPageList li:first-of-type {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#displayPage #displayName {
+	font-size: 35px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#displayPage #displayResult {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+
+	background: rgb(47, 37, 83);
+	color: white;
+
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0 auto;
+
+	word-break: break-all;
+
+	/* small screens only */
+	font-size: 30px;
+}
+
+	@media only screen and (min-width: 800px) {
+		#displayPage #displayResult {
+			font-size: 200%;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+
+	}
+
+.progressbar-label,
+#progressbar,
+#timer {
+	display: none !important;
+}
+
+#header-right {
+	display: block;
+	text-align: center;
+}
+
+div#logo {
+	display: none !important;
+}
+
+div#complete {
+	display: none !important;
+}
+
+div#footer {
+	display: none !important;
+}
+
+
+form input,
+form label,
+form select {
+	pointer-events: none;
+}
+
+form input[type=radio]:checked + label {
+	color: rgb(160,0,0);
+	background-image: url(images/radio-incorrect-checked.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+
+form input[type=radio].correct:checked + label {
+	color: rgb(0,146,69);
+	background-image: url(images/radio-correct-checked.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+
+form select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	border: dashed 3px rgb(160,0,0);
+}
+
+form select.correct {
+	border: solid 3px rgb(0,146,69);
+}
+
+form select.correct:before {
+	content: "xx";
+	display: inline-block;
+	background-image: url(images/radio-correct-checked.png);
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+
+form input.correction {
+	border: dashed 3px rgb(160,0,0) !important;
+}
+
+form input.correction.correct {
+	border: solid 3px rgb(0,146,69) !important;
+}
+
+form input[type=checkbox]:focus + label,
+form input[type=radio]:focus + label {
+	outline: none;
+}
+
+form input[type=text],
+form select:focus {
+	outline: none;
+}
+
+
+
+	@media only screen and (min-width: 800px) {
+	}

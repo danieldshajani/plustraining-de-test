@@ -1,0 +1,98 @@
+<fieldset data-points="2" data-time="120">
+	<legend>Wählen Sie die korrekte Form.</legend>
+	<div>
+		<p>Christopher 
+			<select id="A1_1_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>komme</option>
+				<option>kommst</option>
+				<option>kommt</option>
+				<option>kommen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			aus England. Maria 
+			<select id="A1_1_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>komme</option>
+				<option>kommst</option>
+				<option>kommt</option>
+				<option>kommen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			aus Spanien. Christopher und Maria 
+			<select id="A1_1_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>wohne</option>
+				<option>wohnst</option>
+				<option>wohnt</option>
+				<option>wohnen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> jetzt zusammen in Wien und 
+			<select id="A1_1_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>lerne</option>
+				<option>lernst</option>
+				<option>lernt</option>
+				<option>lernen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Deutsch. Christopher 
+			<select id="A1_1_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>schreibe</option>
+				<option>schreibst</option>
+				<option>schreibt</option>
+				<option>schreiben</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> gerne. Maria 
+			<select id="A1_1_6">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>lerne</option>
+				<option>lernst</option>
+				<option>lernt</option>
+				<option>lernen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> gerne Grammatik. Nach dem Deutschkurs
+			<select id="A1_1_7">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>gehe</option>
+				<option>gehst</option>
+				<option>geht</option>
+				<option>gehen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> sie zusammen nachhause. Zuhause 
+			<select id="A1_1_8">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>höre</option>
+				<option>hörst</option>
+				<option>hört</option>
+				<option>hören</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Christopher Musik und Maria liest Bücher. Sie 
+			<select id="A1_1_9">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>höre</option>
+				<option>hörst</option>
+				<option>hört</option>
+				<option>hören</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> nicht gerne Musik. „Wie schade!“, 
+			<select id="A1_1_10">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>denke</option>
+				<option>denkst</option>
+				<option>denkt</option>
+				<option>denken</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Christopher.</p>
+	</div>
+</fieldset>

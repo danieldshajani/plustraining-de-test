@@ -1,0 +1,12 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>„Ich habe heute Geburtstag!“</p>
+	<p>— Wirklich? Na dann, …
+	<ul>
+		<li><input type="radio" id="A2_7_1" name="A2_7" value="… aber gerne!"></li>
+		<li><input type="radio" id="A2_7_2" name="A2_7" value="… alles Gute!"></li>
+		<li><input type="radio" id="A2_7_3" name="A2_7" value="… prosit!"></li>
+		<li><input type="radio" id="A2_7_4" name="A2_7" value="… liebe Grüße!"></li>
+		<li><input type="radio" id="A2_7_X" name="A2_7" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

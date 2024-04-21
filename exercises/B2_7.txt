@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Wählen Sie die richtige Antwort.</legend>
+	<p>„Kommt deine Kollegin auch mit zum Betriebsausflug nächste Woche?“</p>
+	<ul>
+		<li><input type="radio" id="B2_7_1" name="B2_7" value="Nein, sie hat mir gesagt, dass sie dann zu beschäftigt war."></li>
+		<li><input type="radio" id="B2_7_2" name="B2_7" value="Nein, sie hat mir gesagt, dass sie dann zu beschäftigt sei."></li>
+		<li><input type="radio" id="B2_7_3" name="B2_7" value="Nein, sie hat mir gesagt, dass sie dann zu beschäftigt wird."></li>
+		<li><input type="radio" id="B2_7_4" name="B2_7" value="Nein, sie hat mir gesagt, dass sie dann zu beschäftigt gewesen wäre."></li>
+		<li><input type="radio" id="B2_7_X" name="B2_7" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

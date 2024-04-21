@@ -1,0 +1,70 @@
+<fieldset data-points="2" data-time="150">
+	<legend>Wählen Sie die richtigen Fragewörter.</legend>
+	<ul class="list-questions-and-answers">
+		<li><p>
+		<select id="A1_4_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Wer</option>
+			<option>Was</option>
+			<option>Wo</option>
+			<option>Wie</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		wohnst du? <span class="answer-for-question">— In Wien.</span>
+		</p></li>
+		<li><p>
+		<select id="A1_4_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Wer</option>
+			<option>Was</option>
+			<option>Wo</option>
+			<option>Wie</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		alt ist dein Sohn? <span class="answer-for-question">— Er ist 12 Jahre alt.</span>
+		</p></li>
+		<li><p>
+		<select id="A1_4_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Wer</option>
+			<option>Was</option>
+			<option>Wo</option>
+			<option>Wie</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		macht ihr morgen? <span class="answer-for-question">— Wir müssen arbeiten.</span>
+		</p></li>
+		<li><p>
+		<select id="A1_4_6">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Wer</option>
+			<option>Was</option>
+			<option>Wo</option>
+			<option>Wie</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		kommt zum Meeting? <span class="answer-for-question">— Meine Kollegin und ich.</span>
+		</p></li>
+		<li><p>
+		<select id="A1_4_7">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Wer</option>
+			<option>Was</option>
+			<option>Wo</option>
+			<option>Wie</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		fährst du nach London? <span class="answer-for-question">— Am Sonntag.</span>
+		</p></li>
+	</ul>
+</fieldset>

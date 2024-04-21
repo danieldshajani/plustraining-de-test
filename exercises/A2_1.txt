@@ -1,0 +1,43 @@
+<fieldset data-points="2" data-time="75">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>Ich mache oft Sport, 
+		<select id="A2_1_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wenn</option>
+			<option>dann</option>
+			<option>oder</option>
+			<option>denn</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		das macht mir Spaß! Ich muss viel arbeiten, 
+		<select id="A2_1_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>aber</option>
+			<option>und</option>
+			<option>denn</option>
+			<option>oder</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> am Abend habe ich immer Zeit. Ich gehe gerne laufen 
+		<select id="A2_1_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>weil</option>
+			<option>und</option>
+			<option>denn</option>
+			<option>oder</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> ich gehe auch gerne schwimmen. Ich laufe alleine 
+		<select id="A2_1_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>aber</option>
+			<option>weil</option>
+			<option>denn</option>
+			<option>oder</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> zusammen mit einer Freundin.
+	</div>
+</fieldset>

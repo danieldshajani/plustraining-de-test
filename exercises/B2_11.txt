@@ -1,0 +1,28 @@
+<fieldset data-points="4" data-time="180">
+	<legend>Lesen Sie den Text. Wählen Sie dann die richtigen Antworten.</legend>
+	<div class="letter letter-email">
+		<p>Liebe Kolleginnen und Kollegen,</p>
+		<p>wir von der Personalvertretung möchten euch kurz von unserem Treffen mit Herrn Mukitz vom Aufsichtsrat berichten. Das Treffen fand letzten Dienstag statt. Mehrere MitarbeiterInnen unserer Abteilung waren anwesend. Es gab viel zu besprechen. Die neuen Dienstverträge werden nächstes Jahr kommen – das wussten wir ja bereits. Neu ist aber die Information, dass diese nicht automatisch für alle DienstnehmerInnen gelten werden. Für dieses Missverständnis machte Herr Mukitz die schlechte Kommunikation des Aufsichtsrates verantwortlich und bat um Verzeihung. Ein erster Einblick in die vorläufige Fassung der Verträge wird noch dieses Jahr möglich sein, wir werden diesbezüglich dann natürlich auch um euer aller Feedback ansuchen. Zum Abschluss gab es ermutigende Worte und es kam die Bestätigung, dass wirklich jeder Fall einzeln geprüft würde. Herr Mukitz möchte außerdem darauf hinweisen, dass er jederzeit für Fragen via E-Mail zur Verfügung steht.</p>
+		</p>
+		<p>Freundschaftliche Grüße<br />
+			Eure VertreterInnen in der Gewerkschaft
+		</p>
+	</div>
+	<p>Was ist richtig?</p>
+	<p>Herr Mukitz …</p>
+	<ul>
+		<li><input type="radio" id="B2_11_1" name="B2_11_1" value="… ist Mitglied der Gewerkschaft."></li>
+		<li><input type="radio" id="B2_11_2" name="B2_11_1" value="… entschuldigte sich für den Aufsichtsrat."></li>
+		<li><input type="radio" id="B2_11_3" name="B2_11_1" value="… ist nur schwer zu erreichen."></li>
+		<li><input type="radio" id="B2_11_4" name="B2_11_1" value="… wird Fragen via E-Mail ausschicken."></li>
+		<li><input type="radio" id="B2_11_1_X" name="B2_11_1" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+	<p>Die neuen Verträge …</p>
+	<ul>
+		<li><input type="radio" id="B2_11_5" name="B2_11_2" value="… wurden vom Aufsichtsrat allein beschlossen."></li>
+		<li><input type="radio" id="B2_11_6" name="B2_11_2" value="… sind ab nächstem Jahr für alle Angestellten gültig."></li>
+		<li><input type="radio" id="B2_11_7" name="B2_11_2" value="… sind noch nicht in ihrer Endfassung vorhanden."></li>
+		<li><input type="radio" id="B2_11_8" name="B2_11_2" value="… müssen via E-Mail an Herrn Mukitz geschickt werden."></li>
+		<li><input type="radio" id="B2_11_2_X" name="B2_11_2" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

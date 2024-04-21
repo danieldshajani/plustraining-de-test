@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>Ich kann morgen nicht zur Party kommen, weil …
+	<ul>
+		<li><input type="radio" id="A2_2_1" name="A2_2" value="… ich muss leider morgen Abend im Büro sein."></li>
+		<li><input type="radio" id="A2_2_2" name="A2_2" value="… ich morgen Abend leider im Büro sein muss."></li>
+		<li><input type="radio" id="A2_2_3" name="A2_2" value="… ich muss sein morgen Abend leider im Büro."></li>
+		<li><input type="radio" id="A2_2_4" name="A2_2" value="… ich morgen Abend sein im Büro leider muss."></li>
+		<li><input type="radio" id="A2_2_X" name="A2_2" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

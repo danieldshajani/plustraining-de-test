@@ -1,0 +1,12 @@
+<fieldset data-points="1" data-time="45">
+	<legend>Wählen Sie aus.</legend>
+	<p>Welcher der folgenden Sätze ist <span class="task-important-words">nicht korrekt</span>?</p>
+	<ul>
+		<li><input type="radio" id="B2_6_1" name="B2_6" value="Leon schickt seiner Mutter jede Woche einen Brief, das weiß ich."></li>
+		<li><input type="radio" id="B2_6_2" name="B2_6" value="Ich weiß, dass Leon seiner Mutter jede Woche einen Brief schickt."></li>
+		<li><input type="radio" id="B2_6_3" name="B2_6" value="Einen Brief schickt Leon seiner Mutter jede Woche, das weiß ich."></li>
+		<li><input type="radio" id="B2_6_4" name="B2_6" value="Jede Woche Leon schickt seiner Mutter einen Brief, das weiß ich."></li>
+		<li><input type="radio" id="B2_6_5" name="B2_6" value="Seiner Mutter schickt Leon, das weiß ich, jede Woche einen Brief."></li>
+		<li><input type="radio" id="B2_6_X" name="B2_6" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

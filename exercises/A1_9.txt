@@ -1,0 +1,51 @@
+<fieldset data-points="5" data-time="90">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div class="letter letter-postcard">
+		<p>Hallo Georg!</p>
+		<p>Hier ist Barbara auf Österreichreise! Heute ist Samstag, und ich bin in Graz. Graz ist 
+			<select id="A1_9_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>allein</option>
+				<option>müde</option>
+				<option>toll</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			! Das Wetter ist 
+			<select id="A1_9_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>kaputt</option>
+				<option>fantastisch</option>
+				<option>laut</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>, die Leute sind 
+			<select id="A1_9_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>freundlich</option>
+				<option>richtig</option>
+				<option>teuer</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>. Mein Hotel ist 
+			<select id="A1_9_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>genau</option>
+				<option>jung</option>
+				<option>schön</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>, aber sehr 
+			<select id="A1_9_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>teuer</option>
+				<option>falsch</option>
+				<option>gerne</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>.</p>
+			<p>Morgen bin ich in Klagenfurt.</p>
+			<p>Liebe Grüße <br />
+			Barbara</p>
+	</div>
+</fieldset>

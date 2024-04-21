@@ -1,0 +1,25 @@
+<fieldset data-points="2" data-time="150">
+	<legend>Lesen Sie den Text. Wählen Sie dann aus: Richtig oder falsch?</legend>
+	<div class="newspaper-article">
+		<p>Dragan erzählt:</p>
+		<p>„Ich komme aus Serbien. In Serbien habe ich eine Ausbildung zum Lehrer gemacht, für Geografie und Geschichte. Ich habe in einer großen Schule mit vielen Kindern gearbeitet. Dann habe ich im Urlaub in Italien meine Frau kennengelernt. Sie ist Österreicherin. Jetzt lebe ich mit ihr in Wien. Hier lerne ich Deutsch und arbeite nebenbei ein bisschen in einem Kindergarten. Ich würde aber gerne wieder in einer Schule arbeiten, auch hier in Wien. Darum lerne ich jeden Tag.“</p>
+	</div>
+
+	<p>Richtig oder falsch?</p>
+	<ul>
+		<li><p>Dragan möchte in einer Schule in Österreich arbeiten.</p>
+			<ul>
+				<li><input type="radio" id="A1_5_1" name="A1_5_1" value="Richtig"></li>
+				<li><input type="radio" id="A1_5_2" name="A1_5_1" value="Falsch"></li>
+				<li><input type="radio" id="A1_5_1_X" name="A1_5_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Dragans Frau ist Italienerin.</p>
+			<ul>
+				<li><input type="radio" id="A1_5_3" name="A1_5_2" value="Richtig"></li>
+				<li><input type="radio" id="A1_5_4" name="A1_5_2" value="Falsch"></li>
+				<li><input type="radio" id="A1_5_2_X" name="A1_5_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

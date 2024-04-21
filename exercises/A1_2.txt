@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>„Guten Morgen! Wie geht’s?“</p>
+	<ul>
+		<li><input type="radio" id="A1_2_1" name="A1_2" value="Guten Tag. Meine Name ist Mercan."></li>
+		<li><input type="radio" id="A1_2_2" name="A1_2" value="Nein, morgen geht es nicht."></li>
+		<li><input type="radio" id="A1_2_3" name="A1_2" value="Guten Abend. Nicht so gut, danke."></li>
+		<li><input type="radio" id="A1_2_4" name="A1_2" value="Gut, danke. Und dir?"></li>
+		<li><input type="radio" id="A1_2_X" name="A1_2" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

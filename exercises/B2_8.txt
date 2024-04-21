@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Wählen Sie die richtige Antwort.</legend>
+	<p>Ich habe die Prüfung leider nicht bestanden.</p>
+	<ul>
+		<li><input type="radio" id="B2_8_1" name="B2_8" value="Wäre ich doch bloß mehr gelernt!"></li>
+		<li><input type="radio" id="B2_8_2" name="B2_8" value="Hatte ich doch bloß mehr gelernt!"></li>
+		<li><input type="radio" id="B2_8_3" name="B2_8" value="Würde ich doch bloß mehr lernen haben!"></li>
+		<li><input type="radio" id="B2_8_4" name="B2_8" value="Hätte ich doch bloß mehr gelernt!"></li>
+		<li><input type="radio" id="B2_8_X" name="B2_8" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

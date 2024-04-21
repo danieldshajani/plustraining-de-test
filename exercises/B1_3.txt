@@ -1,0 +1,76 @@
+<fieldset data-points="5" data-time="150">
+	<legend>Ordnen Sie zu.</legend>
+	<p>Lesen Sie das folgende Gespräch. Welches der Wörter gehört in welche Lücke?</p>
+	<ul class="conversation">
+		<li class="speaker-a"><p>A: Guten Morgen! Ich habe einen <span class="gap">Lücke 1</span> bei Herrn Dr. Wendel um 10 Uhr.</p></li>
+		<li class="speaker-b"><p>B: Guten Morgen. Waren Sie schon einmal bei uns?</p></li>
+		<li class="speaker-a"><p>A: Nein, noch nicht.</p></li>
+		<li class="speaker-b"><p>B: Verstehe. Dann müssen Sie bitte dieses <span class="gap">Lücke 2</span> hier ausfüllen. Wir brauchen Ihre Daten für unser System. Und schreiben Sie bitte auch alle <span class="gap">Lücke 3</span> auf, die Sie zurzeit nehmen. Oh, und Ihre <span class="gap">Lücke 4</span>, falls Sie welche haben.</p></li>
+		<li class="speaker-a"><p>A: Das mache ich, danke.</p></li>
+		<li><p>…</p></li>
+		<li class="speaker-a"><p>A: So, hier bitte. Alle meine Daten!</p></li>
+		<li class="speaker-b"><p>B: Vielen Dank! Nehmen Sie jetzt bitte noch kurz im <span class="gap">Lücke 5</span> Platz. Sie werden aufgerufen!</p></li>
+	</ul>
+	<ul>
+		<li>Wartezimmer <i>– Antwort für</i>
+			<select id="B1_3_1">
+				<option value="" selected disabled>Choose an answer …</option>
+				<option>Lücke 1</option>
+				<option>Lücke 2</option>
+				<option>Lücke 3</option>
+				<option>Lücke 4</option>
+				<option>Lücke 5</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Formular <i>– Antwort für</i>
+			<select id="B1_3_2">
+				<option value="" selected disabled>Choose an answer …</option>
+				<option>Lücke 1</option>
+				<option>Lücke 2</option>
+				<option>Lücke 3</option>
+				<option>Lücke 4</option>
+				<option>Lücke 5</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Termin <i>– Antwort für</i>
+			<select id="B1_3_3">
+				<option value="" selected disabled>Choose an answer …</option>
+				<option>Lücke 1</option>
+				<option>Lücke 2</option>
+				<option>Lücke 3</option>
+				<option>Lücke 4</option>
+				<option>Lücke 5</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Allergien <i>– Antwort für</i>
+			<select id="B1_3_4">
+				<option value="" selected disabled>Choose an answer …</option>
+				<option>Lücke 1</option>
+				<option>Lücke 2</option>
+				<option>Lücke 3</option>
+				<option>Lücke 4</option>
+				<option>Lücke 5</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Medikamente <i>– Antwort für</i>
+			<select id="B1_3_5">
+				<option value="" selected disabled>Choose an answer …</option>
+				<option>Lücke 1</option>
+				<option>Lücke 2</option>
+				<option>Lücke 3</option>
+				<option>Lücke 4</option>
+				<option>Lücke 5</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+	</ul>
+</fieldset>

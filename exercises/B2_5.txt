@@ -1,0 +1,50 @@
+<fieldset data-points="3" data-time="120">
+	<legend>Wählen Sie die richtigen Formen.</legend>
+	<div>
+		<p>Für das neue Jahr möchte ich mir viele Dinge vornehmen. Ich habe das Bedürfnis, endlich ein besserer Mensch
+		<select id="B2_5_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>zu werden</option>
+			<option>werden</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		. Ich werde
+		<select id="B2_5_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>zu rauchen</option>
+			<option>rauchen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> aufhören und beginnen, regelmäßig Sport 
+		<select id="B2_5_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>zu betreiben</option>
+			<option>betreiben</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>. Ich befürchte, schnell wieder 
+		<select id="B2_5_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>aufzugeben</option>
+			<option>aufgeben</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>, aber meine Freunde haben gesagt, sie wollten mich
+		<select id="B2_5_5">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>zu unterstützen</option>
+			<option>unterstützen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>. Sie glauben alle, dass ich es
+		<select id="B2_5_6">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>zu schaffen</option>
+			<option>schaffen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> werde.
+		</p>
+	</div>
+</fieldset>

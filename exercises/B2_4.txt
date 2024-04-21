@@ -1,0 +1,78 @@
+<fieldset data-points="7" data-time="180">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div class="letter letter-email">
+		<p>Sehr geehrte Angestellte,</p>
+		<p>wir möchten Sie höflich <select id="B2_4_6">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>darüber</option>
+				<option>darauf</option>
+				<option>dagegen</option>
+				<option>dazu</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select> hinweisen, dass im Zuge der laufenden Umstellung aller Firmencomputer auf Windows 10 nächste Woche größere Softwareupdates im Intranet installiert werden. Aufgrund dieser Aktualisierung muss das interne Netzwerk vorübergehend
+		<select id="B2_4_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>ohne</option>
+				<option>unter</option>
+				<option>außer</option>
+				<option>gegen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		Betrieb gesetzt werden. Das bedeutet,
+		<select id="B2_4_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>dass</option>
+				<option>ob</option>
+				<option>weil</option>
+				<option>wegen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		Sie im Zeitraum von Dienstag, 10 Uhr, bis Donnerstag, 15 Uhr, nicht auf Ihre im Intranet gespeicherten Verzeichnisse und Dateien zugreifen werden können.
+		<select id="B2_4_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Obwohl</option>
+				<option>Indem</option>
+				<option>Weshalb</option>
+				<option>Außerdem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		können Sie dann keine Nachrichten über das interne Ordnerverwaltungssystem verschicken (E-Mails funktionieren aber weiterhin).</p>
+		<p>Falls Sie Fragen haben oder Hilfe benötigen, wenden Sie sich bitte direkt
+		<select id="B2_4_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>zu</option>
+				<option>bei</option>
+				<option>an</option>
+				<option>für</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>Frau Petoy (Büro im 5. Stockwerk). Bitte
+		<select id="B2_4_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>laden</option>
+				<option>sehen</option>
+				<option>realisieren</option>
+				<option>beachten</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		Sie auch die Informationen auf unserer Abteilungswebsite zu Schulungsangeboten für den Umgang mit dem neuen System.</p>
+		<p>Wir entschuldigen uns für die Unannehmlichkeiten und danken für Ihr
+		<select id="B2_4_7">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Verständnis</option>
+				<option>Vergesslichkeit</option>
+				<option>Verstand</option>
+				<option>Verzeihung</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+		</select>.</p>
+		<p>Mit freundlichen Grüßen <br />
+			die MitarbeiterInnen des IT-Teams
+		</p>
+	</div>
+</fieldset>

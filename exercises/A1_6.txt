@@ -1,0 +1,27 @@
+<fieldset data-points="1" data-time="75">
+	<legend>Lesen Sie den Text. Wählen Sie dann aus: Richtig oder falsch?</legend>
+	<div class="newspaper-article">
+		<p><b>HOTEL MOZART * * *</b><br />
+		<b>Einzelzimmer</b> 90 Euro (mit Frühstück)<br />
+		große Dusche, Kaffeemaschine & Tee, Fernseher (30+ Kanäle), 24-Stunden-Portier, Fitnessraum (ohne Sauna), gratis WLAN</p>
+</p>
+	</div>
+
+	<p>Richtig oder falsch?</p>
+	<ul>
+		<li><p>Eine Übernachtung kostet ohne Frühstück 90 Euro.</p>
+			<ul>
+				<li><input type="radio" id="A1_6_1" name="A1_6_1" value="Richtig"></li>
+				<li><input type="radio" id="A1_6_2" name="A1_6_1" value="Falsch"></li>
+				<li><input type="radio" id="A1_6_1_X" name="A1_6_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Für Internet muss man nicht extra zahlen.</p>
+			<ul>
+				<li><input type="radio" id="A1_6_3" name="A1_6_2" value="Richtig"></li>
+				<li><input type="radio" id="A1_6_4" name="A1_6_2" value="Falsch"></li>
+				<li><input type="radio" id="A1_6_2_X" name="A1_6_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

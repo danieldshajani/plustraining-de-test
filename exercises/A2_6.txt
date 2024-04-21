@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>Entschuldigung, könnten Sie mir bitte sagen, …</p>
+	<ul>
+		<li><input type="radio" id="A2_6_1" name="A2_6" value="… wann das Meeting heute beginnt?"></li>
+		<li><input type="radio" id="A2_6_2" name="A2_6" value="… wann beginnt das Meeting heute?"></li>
+		<li><input type="radio" id="A2_6_3" name="A2_6" value="… wann heute beginnt das Meeting?"></li>
+		<li><input type="radio" id="A2_6_4" name="A2_6" value="… wann beginnt heute das Meeting?"></li>
+		<li><input type="radio" id="A2_6_X" name="A2_6" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plus Training OG | Einstufungstest Deutsch</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script>
+		window.onload = function() {
+		  var referrer = document.referrer;
+		  if (referrer.startsWith("https://wn-einstufung.atex.co.at/grtest/")) {
+			// Allow access
+			console.log("Allowed access from referrer: " + referrer);
+		  } else {
+			// Redirect to login page
+			console.log("Redirecting to login page");
+			window.location.href = "https://wn-einstufung.atex.co.at/grtest/";
+		  }
+		}
+	  </script>	
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="data.js?v=0.2"></script>
+	<script type="text/javascript" src="engine.js?v=0.2"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<img src="logo_bgwhite2.svg" alt="Plus Training OG" />
+			</div>
+			<div id="header-right">
+				<h1>Einstufungs&shy;test (Deutsch)</h1>
+				<div class="progressbar-label">
+					Fortschritt:
+				</div>
+				<div id="progressbar">
+				</div>
+				<div id="timer">
+					<span id="timer-label" class="element-invisible">Zeitlimit: </span><span id="timeLeft">0:00</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="content">
+
+			<form id="placement-test" method="POST">
+				<div id="displayPage">
+					<ul id="displayPageList">
+						<li><span class="displayPage-label element-invisible" id="displayResult-label">Ergebnis: </span><span id="displayResult"></span><span class="displayPage-label element-invisible" id="displayName-label">Name: </span><span id="displayName"></span></li>
+						<li><span class="displayPage-label" id="displayTime-label">Zeitaufwand: </span><span id="displayTime"></span></li>
+					</ul>
+				</div>
+
+				<div id="welcome">
+					<div>
+						<h2>Einstufungs&shy;test Deutsch</h2>
+						<p class="loc de">Dieser Test erlaubt die Einschätzung Ihrer Sprachkenntnisse basierend auf dem Gemeinsamen Europäischen Referenzrahmen für Sprachen. Im Anschluss an den Test können Sie Ihre Ergebnisse an die Plus Training OG weiterleiten, um den passenden Sprachkurs für Sie zu finden. Bitte beachten Sie, dass dieser Test nur einer ersten Einstufung dient und nicht als offizielle und/oder endgültige Bestätigung Ihres Sprachniveaus gelten kann.</p>
+						<p class="loc en">This test allows you to find out your language skill level based on the Common European Reference for Languages. Once you’ve answered all the questions, you can send your results to "Plus Training OG" to help you find the right language class for you. Please note that this test is only for the purpose of initial placement and cannot serve as an official and/or final confirmation of your language skill level.</p>
+						<fieldset>
+							<legend>Ihre Kontaktdaten | Contact Details</legend>
+							<p class="loc en">Please fill in your name below:</p>
+							<p class="loc de">Bitte geben Sie Ihren Namen an:</p>
+							<ul class="contact-data">
+								<li><label for="Name" class="required"><span>Name:</span></label> <input type="text" name="Name" id="Name" placeholder="Rainer Zufall" tabindex="91"></li>
+							</ul>
+						</fieldset>
+
+						<fieldset>
+							<legend>Anleitung | Instructions</legend>
+							<p class="loc de">Beantworten Sie die Fragen, indem Sie abhängig von der Aufgabe die richtige Antwortmöglichkeit auswählen. Wenn Sie etwas nicht wissen, wählen Sie „Ich weiß nicht.“ Welche Fragen Sie angezeigt bekommen, hängt von Ihren Antworten ab. Vergessen Sie nicht, die Aufgabenstellung bei jeder Frage sorgfältig zu lesen. Dieser Test beinhaltet keine Höraufgaben.</p>
+							<p class="loc en">Answer the questions by choosing the right options. If you don’t know the answer, choose ‘Ich weiß nicht.’ Which questions you see depends on the answers you give. Don’t forget to read each task’s instructions carefully so that you know what you need to do. This test does not include any listening tasks.</p>
+						</fieldset>
+
+						<fieldset>
+							<legend>Vertraulichkeit | Confidentiality</legend>
+							<p class="loc de">Bitte bestätigen Sie, dass Sie die folgende Vertraulichkeitsvereinbarung gelesen haben und ihr zustimmen:</p>
+							<p class="loc de confidentiality-agreement">Die Inhalte dieses Einstufungstest sind vertraulich und von Copyright- und anderen Rechten geschützt. Wenn Sie unten „Ich stimme zu“ auswählen, akzeptieren Sie und stimmen Sie zu, dass Sie den Test nur im Rahmen des vorgesehenen Zweckes (Einstufung Ihrer Sprachkenntnisse) verwenden, dass Sie seine Inhalte nicht anderen zugänglich machen und dass Sie den Test oder Teile daraus nicht kopieren und/oder verbreiten werden.</p>
+
+							<p class="loc en">Please confirm that you have read and agree to the following confidentiality agreement:</p>
+							<p class="loc en confidentiality-agreement">The contents of this placement test are confidential and protected under copyright and other laws. By clicking ‘I agree’ below, you accept and agree that you have the right to access this test for its intended purpose only (evaluating your language skills), that you are not allowed to disclose any aspect of this test to others, and that you will not copy and/or distribute this test or any of its parts.</p>
+
+								<div id="confidentiality-checkbox-container">
+									<input type="checkbox" name="confidentiality-agreed" id="confidentiality-checkbox" tabindex="96" class="element-invisible element-focusable-hidden">
+									<label for="confidentiality-checkbox">Ich stimme zu | I agree</label>
+								</div>
+						</fieldset>
+
+						<a class="button next-button disabled" id="begin-button" tabindex="199" href="#"><span>Bitte füllen Sie alle erforderlichen Felder aus</span> | <span>Please fill in all required fields</span></a>
+					</div>
+
+					<div id="connection-notice">
+						<p class="loc de">Dieser Test ist für eine stabile und ausreichend schnelle Internetverbindung optimiert. Bei langsamen Verbindungen kann es beim Laden der Aufgaben zu kürzeren Wartezeiten kommen.</p>
+						<p class="loc en">This test has been optimised for stable and sufficiently fast Internet connections. If your connection is slow, you may experience short loading times between questions.</p>
+					</div>
+
+				</div>
+
+				<div id="modules">
+				</div>
+
+				<a id="next-button" class="next-button button disabled" href="#">Next</a>
+
+				<div id="complete">
+					<h2>Sie haben den Einstufungstest abgeschlossen!</h2>
+					<p id="resultDisplay"></p>
+					<p class="loc de">Bitte klicken Sie auf „Abschicken“, um Ihre Ergebnisse an die Plus Training OG zu übermitteln.</p>
+					<p class="loc en">Please click ‘Submit’ to submit your results to "Plus Training OG".</p>
+					<a class="next-button button" tabindex="200">Abschicken | Submit</a>
+					<p class="loc de">Bitte beachten Sie, dass dieser Test nur einer ersten Einstufung dient und nicht als offizielle und/oder endgültige Bestätigung Ihres Sprachniveaus gelten kann.</p>
+					<p class="loc en">Please note that this test is only for the purpose of initial placement and cannot serve as an official and/or final confirmation of your language skill level.</p>
+				</div>
+
+				<div style="display: none;" id="footer">
+					<div id="footer-loqui">
+						<p><span><a href="http://www.loqui.at/" target="_blank" tabindex="900"><span class="link-label">Go to LOQUI website</span></a><span class="filler"> | </span><a href="http://www.loqui.at/" target="_blank" tabindex="901"><span class="link-label">Zur Website von LOQUI</span></a></span></p>
+					</div>
+					<div id="footer-qwir">
+						<p class="credit">created by | erstellt von <a href="http://www.qwir.at/" target="_blank"  tabindex="950">Qwir text + design</a></p>
+					</div>
+				</div>
+<br>
+				<input type="hidden" id="result" name="result" value="">
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

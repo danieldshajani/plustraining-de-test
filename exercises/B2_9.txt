@@ -1,0 +1,53 @@
+<fieldset data-points="1" data-time="90">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<ul>
+		<li><p>Kannst du mir bitte dein Auto leihen? Meines ist gerade in der Werkstatt und
+		<select id="B2_9_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wird</option>
+			<option>ist</option>
+			<option>soll</option>
+			<option>war</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		repariert.
+		</p></li>
+		<li><p>Ich kann ihn jetzt leider nicht anrufen, mein Handyakku 
+		<select id="B2_9_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wird</option>
+			<option>ist</option>
+			<option>wäre</option>
+			<option>war</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		schon aufgebraucht.
+		</p></li>
+		<li><p>Unser Büro
+		<select id="B2_9_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wird</option>
+			<option>ist</option>
+			<option>wäre</option>
+			<option>war</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		auch während der Sommerferien geöffnet sein.
+		</p></li>
+		<li><p>Gehen wir morgen in die Pizzaria ums Eck? Ich habe gehört, die Pizza dort
+		<select id="B2_9_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wird</option>
+			<option>ist</option>
+			<option>soll</option>
+			<option>war</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		echt gut sein.
+		</p></li>
+	</ul>
+</fieldset>

@@ -1,0 +1,56 @@
+<fieldset data-points="2" data-time="120">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div class="letter letter-email">
+		<p>Sehr geehrte Damen und Herren!</p>
+		<p>Mein Name ist Guillaume Ledoux. Ich komme 
+			<select id="A2_8_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>aus</option>
+				<option>zu</option>
+				<option>bei</option>
+				<option>vom</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Frankreich. Ich interessiere mich 
+			<select id="A2_8_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>in</option>
+				<option>an</option>
+				<option>für</option>
+				<option>gegen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> einen Deutschkurs. Ich habe 
+			<select id="A2_8_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>vom</option>
+				<option>beim</option>
+				<option>im</option>
+				<option>zum</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Internet gesehen, dass 
+			<select id="A2_8_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>am</option>
+				<option>um</option>
+				<option>im</option>
+				<option>vom</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Montag neue Kurse beginnen. Könnten Sie mir bitte sagen, ob es im Kurs 
+			<select id="A2_8_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>am</option>
+				<option>um</option>
+				<option>im</option>
+				<option>mit</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> 18 Uhr noch Platz gibt? Danke!</p>
+			<p>Mit freundlichen Grüßen <br />
+			Guillaume Ledoux
+		</p>
+	</div>
+</fieldset>

@@ -1,0 +1,10 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<ul>
+		<li><input type="radio" id="B2_1_1" name="B2_1" value="Wenn Sie den Vertrag früher unterschrieben hätten, wäre die Lieferung bereits abgeschickt worden."></li>
+		<li><input type="radio" id="B2_1_2" name="B2_1" value="Wenn Sie den Vertrag früher unterschrieben hatten, war die Lieferung bereits abgeschickt worden."></li>
+		<li><input type="radio" id="B2_1_3" name="B2_1" value="Wenn Sie den Vertrag früher unterschrieben hatten, wäre die Lieferung bereits abgeschickt worden."></li>
+		<li><input type="radio" id="B2_1_4" name="B2_1" value="Wenn Sie den Vertrag früher unterschrieben hätten, war die Lieferung bereits abgeschickt worden."></li>
+		<li><input type="radio" id="B2_1_X" name="B2_1" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

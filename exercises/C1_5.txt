@@ -1,0 +1,37 @@
+<fieldset data-points="6" data-time="180">
+	<legend>Korrigieren Sie den Text.</legend>
+	<p>Der folgende Text enthält Fehler. In jeder Zeile ist maximal ein Fehler versteckt. <span class="task-important-words">Eine Zeile ist korrekt</span>. Die Fehler können durch Austauschen oder Hinzufügen eines einzigen Wortes korrigiert werden. Schreiben Sie das entsprechende Wort in das jeweilige Textfeld neben der Zeile. Für die  <span class="task-important-words">Zeile ohne Fehler schreiben Sie „korrekt“ in das Textfeld</span>.</p>
+	<ul class="lines-mistakes">
+		<li><span class="line">Sehr geehrte Frau Berger,</span></li>
+		<li>
+			<span class="line">vielen Dank für Ihrer Anfrage zu unseren aktuellen Angeboten.</span>
+			<input class="correction" type="text" id="C1_5_1" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">Anbei verschicke ich Ihnen unsere Informationsbroschüre,</span>
+			<input class="correction" type="text" id="C1_5_2" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">in die sie alle weiteren Details zu unseren Produkten sowie</span>
+			<input class="correction" type="text" id="C1_5_3" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">Bestellmöglichkeiten und wichtige Kontaktadressen finden.</span>
+			<input class="correction" type="text" id="C1_5_4" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">Bei Unklarheiten oder weiteren Fragen zücken Sie bitte nicht,</span>
+			<input class="correction" type="text" id="C1_5_5" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">sich wieder mit uns in Verbindung setzen.</span>
+			<input class="correction" type="text" id="C1_5_6" maxlength="25" placeholder="Hier tippen.">
+		</li>
+		<li>
+			<span class="line">Mit freundlichen Grüßen</span>
+		</li>
+		<li>
+			<span class="line">Benjamin Krugel</span>
+		</li>
+	</ul>
+</fieldset>

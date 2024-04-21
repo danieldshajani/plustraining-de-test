@@ -1,0 +1,14 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Wählen Sie die richtige Antwort.</legend>
+	<p>Was zeigen diese Statistiken?</p>
+	<div class="image-container image-count-1">
+		<img src="images/anfragen.png" alt="Vor zwei Jahren gab es 30 Anfragen. Letztes Jahr gab es 90 Anfragen. Dieses Jahr gab es 120 Anfragen." >
+	</div>
+	<ul>
+		<li><input type="radio" id="B2_10_1" name="B2_10" value="Die Zahl der Anfragen ist sichtbar zurückgegangen."></li>
+		<li><input type="radio" id="B2_10_2" name="B2_10" value="Die Zahl der Anfragen ist deutlich angestiegen."></li>
+		<li><input type="radio" id="B2_10_3" name="B2_10" value="Die Zahl der Anfragen hat sich kaum verändert."></li>
+		<li><input type="radio" id="B2_10_4" name="B2_10" value="Die Zahl der Anfragen ist merklich gesunken."></li>
+		<li><input type="radio" id="B2_10_X" name="B2_10" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

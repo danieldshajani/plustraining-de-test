@@ -1,0 +1,23 @@
+<fieldset data-points="2" data-time="60">
+	<legend>Wählen Sie die richtigen Antworten.</legend>
+	<div>
+		<p>„Was schenkst du Ahmed zum Geburtstag?“</p>
+		<p>— „Ahmed? Das weiß ich nicht …
+			<ul>
+				<li><input type="radio" id="A2_12_1" name="A2_12_1" value="… Was schenkst du ihm?"></li>
+				<li><input type="radio" id="A2_12_2" name="A2_12_1" value="… Ich habe ihn gestern getroffen."></li>
+				<li><input type="radio" id="A2_12_3" name="A2_12_1" value="… Wollen wir ihm etwas zusammen schenken?"></li>
+				<li><input type="radio" id="A2_12_1_X" name="A2_12_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</p>
+		<p>„Wie wäre es mit …
+			<ul>
+				<li><input type="radio" id="A2_12_4" name="A2_12_2" value="… einem Krimi?"></li>
+				<li><input type="radio" id="A2_12_5" name="A2_12_2" value="… einer CD?"></li>
+				<li><input type="radio" id="A2_12_6" name="A2_12_2" value="… einem Urlaub?"></li>
+				<li><input type="radio" id="A2_12_2_X" name="A2_12_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</p>
+		<p>— „Ja, gute Idee! Ahmend liest ja so gerne.“</p>
+	</div>
+</fieldset>

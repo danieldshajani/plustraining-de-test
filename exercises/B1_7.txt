@@ -1,0 +1,43 @@
+<fieldset data-points="2" data-time="120">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>„Hallo Sarah! Ich <select id="B1_7_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>konnte</option>
+				<option>könnte</option>
+				<option>kannte</option>
+				<option>kann</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			gestern leider nicht zu deiner Party kommen. Ich hatte Besuch von einem Freund aus Deutschland und war mit ihm beim Stephansdom. Er <select id="B1_7_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>konnte</option>
+				<option>könnte</option>
+				<option>kannte</option>
+				<option>kennte</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Wien noch gar nicht, stell dir vor!“</p>
+		<p>— „Kein Problem! Aber hast du vielleicht am Wochenende Zeit?
+			Wir <select id="B1_7_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>konnten</option>
+				<option>könnten</option>
+				<option>kannten</option>
+				<option>kennten</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> gemeinsam ins Kino gehen, wenn du möchtest.
+			Es spielt zurzeit viele Filme, die ich noch nicht <select id="B1_7_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>konnte</option>
+				<option>könnte</option>
+				<option>kann</option>
+				<option>kenne</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>.“
+		</p>
+	</div>
+</fieldset>

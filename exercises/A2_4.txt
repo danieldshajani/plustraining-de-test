@@ -1,0 +1,53 @@
+<fieldset data-points="4" data-time="75">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>Wir haben zwei Hunde: einen 
+			<select id="A2_4_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>groß</option>
+				<option>große</option>
+				<option>großer</option>
+				<option>großen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Hund und einen 
+			<select id="A2_4_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>klein</option>
+				<option>kleine</option>
+				<option>kleiner</option>
+				<option>kleinen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Hund. Der 
+			<select id="A2_4_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>klein</option>
+				<option>kleine</option>
+				<option>kleiner</option>
+				<option>kleinen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Hund ist noch 
+			<select id="A2_4_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>jung</option>
+				<option>junge</option>
+				<option>junger</option>
+				<option>jungen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>. Er ist ein sehr 
+			<select id="A2_4_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>aktiv</option>
+				<option>aktive</option>
+				<option>aktiver</option>
+				<option>aktiven</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Hund.
+		</p>
+	</div>
+</fieldset>

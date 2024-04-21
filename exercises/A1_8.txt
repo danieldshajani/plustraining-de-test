@@ -1,0 +1,98 @@
+<fieldset data-points="5" data-time="150">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>Ich habe viele technische Geräte. Zuhause habe ich 
+			<select id="A1_8_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Fernseher und 
+			<select id="A1_8_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Computer.
+			<select id="A1_8_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Der</option>
+				<option>Den</option>
+				<option>Ein</option>
+				<option>Einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Fernseher ist schon sehr alt, aber 
+			<select id="A1_8_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Computer ist ganz neu. Im Büro habe ich 
+			<select id="A1_8_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>eine</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Laptop und 
+			<select id="A1_8_6">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Bildschirm. 
+			<select id="A1_8_7">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Der</option>
+				<option>Den</option>
+				<option>Ein</option>
+				<option>Einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Laptop ist klein und leicht, aber 
+			<select id="A1_8_8">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Bildschirm ist groß und schwer. Und natürlich habe ich auch 
+			<select id="A1_8_9">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>das</option>
+				<option>dem</option>
+				<option>ein</option>
+				<option>einen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Handy. 
+			<select id="A1_8_10">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Der</option>
+				<option>Dem</option>
+				<option>Eines</option>
+				<option>Ein</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Handy ist sehr wichtig!
+</p>
+	</div>
+</fieldset>

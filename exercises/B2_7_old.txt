@@ -1,0 +1,11 @@
+<fieldset data-points="1" data-time="45">
+	<legend>Wählen Sie aus.</legend>
+	<p>„Soll ich dich morgen vom Bahnhof abholen?“</p>
+	<ul>
+		<li><input type="radio" id="B2_7_1" name="B2_7" value="Nein, danke. Rebecca hat gesagt, dass sie mich abgeholt habe."></li>
+		<li><input type="radio" id="B2_7_2" name="B2_7" value="Nein, danke. Rebecca hat gesagt, dass sie mich abholen werde."></li>
+		<li><input type="radio" id="B2_7_3" name="B2_7" value="Nein, danke. Rebecca hat gesagt, dass sie mich abholet."></li>
+		<li><input type="radio" id="B2_7_4" name="B2_7" value="Nein, danke. Rebecca hat gesagt, dass sie mich abholen hätte."></li>
+		<li><input type="radio" id="B2_7_X" name="B2_7" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

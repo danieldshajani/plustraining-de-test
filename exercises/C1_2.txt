@@ -1,0 +1,83 @@
+<fieldset data-points="5" data-time="150">
+	<legend>Ordnen Sie zu.</legend>
+	<p>Lesen Sie die folgenden Sätze. Welches der Wörter gehört in welche Lücke? Achtung! Drei Wörter passen in gar keine Lücke. Wählen Sie für diese Wörter „keine Lücke“ aus.</p>
+	<ul>
+		<li><p>1: Ständig fragen mich die Leute, ob sie hier bei der Rezeption rauchen können. Wir werden irgendwo ein großes Rauchen-verboten-Schild <span class="gap">Lücke 1</span> müssen.</p></li>
+		<li><p>2: Ich kämpfe schon seit Tagen mit der neuen Software und komme nicht weiter. Könntest du mir vielleicht <span class="gap">Lücke 2</span>, wie man Einträge in einer Tabelle alphabetisch sortieren kann?</p></li>
+		<li><p>3: Wenn Sie jetzt keinen Reisepass oder Ähnliches vorweisen können, können Sie auch eine Kaution von 50 Euro hinterlegen und später einen Ausweis <span class="gap">Lücke 3</span>.</p></li>
+		<li><p>4: Hast du es schon gehört? Magda möchte kündigen. Das fände ich sehr schade. Denkst du, wir können sie irgendwie davon <span class="gap">Lücke 4</span>?</p></li>
+		<li><p>5: Wir müssen uns bald treffen, um das weitere Vorgehen zu besprechen. Ich bin zwar nächste Woche sehr beschäftigt, aber ein kurzes Treffen werde ich schon irgendwie <span class="gap">Lücke 5</span> können.</p></li>
+	</ul>
+	<ul>
+		<li>Antwort für Lücke 1: 
+			<select id="C1_2_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>anbringen</option>
+				<option>umbringen</option>
+				<option>nachbringen</option>
+				<option>unterbringen</option>
+				<option>aufbringen</option>
+				<option>abbringen</option>
+				<option>beibringen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Antwort für Lücke 2: 
+			<select id="C1_2_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>anbringen</option>
+				<option>umbringen</option>
+				<option>nachbringen</option>
+				<option>unterbringen</option>
+				<option>aufbringen</option>
+				<option>abbringen</option>
+				<option>beibringen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Antwort für Lücke 3: 
+			<select id="C1_2_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>anbringen</option>
+				<option>umbringen</option>
+				<option>nachbringen</option>
+				<option>unterbringen</option>
+				<option>aufbringen</option>
+				<option>abbringen</option>
+				<option>beibringen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Antwort für Lücke 4: 
+			<select id="C1_2_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>anbringen</option>
+				<option>umbringen</option>
+				<option>nachbringen</option>
+				<option>unterbringen</option>
+				<option>aufbringen</option>
+				<option>abbringen</option>
+				<option>beibringen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+		<li>Antwort für Lücke 5: 
+			<select id="C1_2_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>anbringen</option>
+				<option>umbringen</option>
+				<option>nachbringen</option>
+				<option>unterbringen</option>
+				<option>aufbringen</option>
+				<option>abbringen</option>
+				<option>beibringen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		</li>
+	</ul>
+</fieldset>

@@ -1,0 +1,30 @@
+<fieldset data-points="3" data-time="90">
+	<legend>Wählen Sie die richtigen Antworten.</legend>
+	<p>Wie spät ist es?</p>
+	<ul>
+		<li><p><span class="time-display">16:30</span></p>
+			<ul>
+				<li><input type="radio" id="A1_7_1" name="A1_7_1" value="Es ist halb vier."></li>
+				<li><input type="radio" id="A1_7_2" name="A1_7_1" value="Es ist halb fünf."></li>
+				<li><input type="radio" id="A1_7_3" name="A1_7_1" value="Es ist halb nach vier."></li>
+				<li><input type="radio" id="A1_7_1_X" name="A1_7_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p><span class="time-display">07:45</span></p>
+			<ul>
+				<li><input type="radio" id="A1_7_4" name="A1_7_2" value="Es ist drei viertel sieben."></li>
+				<li><input type="radio" id="A1_7_5" name="A1_7_2" value="Es ist drei viertel acht."></li>
+				<li><input type="radio" id="A1_7_6" name="A1_7_2" value="Es ist nach acht."></li>
+				<li><input type="radio" id="A1_7_2_X" name="A1_7_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p><span class="time-display">10:03</span></p>
+			<ul>
+				<li><input type="radio" id="A1_7_7" name="A1_7_3" value="Es ist drei vor zehn."></li>
+				<li><input type="radio" id="A1_7_8" name="A1_7_3" value="Es ist kurz nach zehn."></li>
+				<li><input type="radio" id="A1_7_9" name="A1_7_3" value="Es ist Punkt zehn."></li>
+				<li><input type="radio" id="A1_7_3_X" name="A1_7_3" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

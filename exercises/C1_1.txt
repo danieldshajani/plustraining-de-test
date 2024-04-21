@@ -1,0 +1,62 @@
+<fieldset data-points="3" data-time="120">
+	<legend>Wählen Sie die richtigen Formen.</legend>
+	<p>Wählen Sie die korrekte Form.</p>
+	<div>
+		<p>Das letzte große Meeting fand am Mittwoch statt. Die 
+		<select id="C1_1_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>eingeladene</option>
+			<option>eingeladenen</option>
+			<option>eingeladener</option>
+			<option>eingeladen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> SprecherInnen befassten sich mit verschiedenen
+		<select id="C1_1_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>relevante</option>
+			<option>relevanten</option>
+			<option>relevanter</option>
+			<option>relevant</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Punkten zum 
+		<select id="C1_1_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>aktuelle</option>
+			<option>aktuellen</option>
+			<option>aktueller</option>
+			<option>aktuell</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Thema. Trotz 
+		<select id="C1_1_5">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>unterschiedliche</option>
+			<option>unterschiedlichen</option>
+			<option>unterschiedlicher</option>
+			<option>unterschiedlich</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Standpunkte am Beginn des fünf Stunden 
+		<select id="C1_1_7">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>dauernde</option>
+			<option>dauernden</option>
+			<option>dauernder</option>
+			<option>dauernd</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Meetings waren sich am Ende alle 
+		<select id="C1_1_8">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Anwesende</option>
+			<option>Anwesenden</option>
+			<option>Anwesender</option>
+			<option>Anwesend</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		einig.</p>
+	</div>
+</fieldset>

@@ -1,0 +1,18 @@
+<fieldset data-points="1" data-time="45">
+	<legend>Welches Wort ist korrekt?</legend>
+	<div>
+		<p>„Hallo Monika! Hier spricht Manfred. Jakob und ich gehen heute Abend in die Oper und ich habe noch eine Karte übrig! Dein Mann Thomas mag doch klassische Musik so gerne. Möchte er vielleicht mitkommen?“</p>
+		<p>— Oh, das ist aber lieb von dir! Ich werde ihn fragen, aber ich weiß nicht,
+			<select id="B1_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>dass</option>
+				<option>falls</option>
+				<option>ob</option>
+				<option>weil</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			er heute noch Zeit hat.
+		</p>
+	</div>
+</fieldset>

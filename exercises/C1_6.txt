@@ -1,0 +1,53 @@
+<fieldset data-points="2" data-time="120">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<ul>
+		<li><p>Morgen ziehe ich um. So 
+		<select id="C1_6_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>macht</option>
+			<option>wird</option>
+			<option>geht</option>
+			<option>fällt</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		eine weitere Phase meines Lebens zu Ende.
+		</p></li>
+		<li><p>Ich finde, das Wichtigste beim Autofahren ist, immer ausreichend Abstand zu 
+		<select id="C1_6_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>greifen</option>
+			<option>halten</option>
+			<option>machen</option>
+			<option>heben</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		.
+		</p></li>
+		<li><p>Was soll ich der Projektleiterin jetzt sagen? Wir müssen eine Entscheidung 
+		<select id="C1_6_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>fällen</option>
+			<option>führen</option>
+			<option>bezwingen</option>
+			<option>leiten</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		.
+		</p></li>
+		<li><p>Ist es wirklich kein Problem, wenn ich bei dir übernachte? Ich möchte dir auf keinen Fall zur Last
+		<select id="C1_6_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>steigen</option>
+			<option>haben</option>
+			<option>geben</option>
+			<option>fallen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		!
+		</p></li>
+	</ul>
+</fieldset>

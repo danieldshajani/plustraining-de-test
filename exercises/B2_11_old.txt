@@ -1,0 +1,82 @@
+<fieldset data-points="4" data-time="180">
+	<legend>Wählen Sie die richtigen Antworten.</legend>
+	<div class="letter">
+		<p>Liebe Kolleginnen und Kollegen,</p>
+		<p>wir von der Personalvertretung möchten euch kurz von unserem Treffen mit Herrn Mukitz vom Aufsichtsrat berichten. Das Treffen 
+		<select id="B2_11_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>findet</option>
+			<option>fand</option>
+			<option>fandet</option>
+			<option>gefunden</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		letzten Dienstag statt. Mehrere Mitarbeiterinnen und Mitarbeiter unserer Abteilung
+		<select id="B2_11_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wären</option>
+			<option>werden</option>
+			<option>waren</option>
+			<option>seien</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> anwesend. Es 
+		<select id="B2_11_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>gebe</option>
+			<option>gibtet</option>
+			<option>gäbe</option>
+			<option>gab</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> viel zu besprechen. Die neuen Dienstverträge werden nächstes Jahr kommen – das <select id="B2_11_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wussten</option>
+			<option>wüssten</option>
+			<option>wissten</option>
+			<option>gewusst</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> wir ja bereits. Neu ist aber die Information, dass diese nicht automatisch für alle Dienstnehmer gelten werden. Für dieses Missverständnis
+		<select id="B2_11_5">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>gemacht</option>
+			<option>machte</option>
+			<option>mochte</option>
+			<option>moche</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Herr Mukitz die schlechte Kommunikation des Aufsichtsrates verantwortlich und <select id="B2_11_6">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>entschuldige</option>
+			<option>entschuldigte</option>
+			<option>entschuldigt</option>
+			<option>entschuldigung</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> sich. Zum Abschluss
+		<select id="B2_11_7">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>gäbe</option>
+			<option>gibt</option>
+			<option>gebte</option>
+			<option>gab</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> es ermutigende Worte und es 
+		<select id="B2_11_8">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>komm</option>
+			<option>kommte</option>
+			<option>gekommt</option>
+			<option>kam</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> die Bestätigung, dass wirklich jeder Fall einzeln geprüft würde.
+		</p>
+		<p>Freundschaftliche Grüße<br />
+			Eure VertreterInnen in der Gewerkschaft
+		</p>
+	</div>
+</fieldset>

@@ -1,0 +1,10 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<ul>
+		<li><input type="radio" id="B2_2_1" name="B2_2" value="Wenn ich konnte, würde ich dir gerne helfen."></li>
+		<li><input type="radio" id="B2_2_2" name="B2_2" value="Wenn ich könnte, werde ich dir gerne helfen."></li>
+		<li><input type="radio" id="B2_2_3" name="B2_2" value="Wenn ich konnte, werde ich dir gerne helfen."></li>
+		<li><input type="radio" id="B2_2_4" name="B2_2" value="Wenn ich könnte, würde ich dir gerne helfen."></li>
+		<li><input type="radio" id="B2_2_X" name="B2_2" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

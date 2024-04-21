@@ -1,0 +1,46 @@
+<fieldset data-points="2" data-time="90">
+	<legend>Wählen Sie die richtigen Antworten aus.</legend>
+	<p>Welches der folgenden Wörter entspricht der jeweils angegebenen Bedeutung?</p>
+	<ul>
+		<li><p><i>Bedeutung:</i> ursprünglich; in Wahrheit; geplant war etwas anderes</p>
+			<ul>
+				<li><input type="radio" id="C1_3_1" name="C1_3_1" value="gelegentlich"></li>
+				<li><input type="radio" id="C1_3_2" name="C1_3_1" value="eigentlich"></li>
+				<li><input type="radio" id="C1_3_3" name="C1_3_1" value="eventuell"></li>
+				<li><input type="radio" id="C1_3_4" name="C1_3_1" value="hauptsächlich"></li>
+				<li><input type="radio" id="C1_3_5" name="C1_3_1" value="vollkommen"></li>
+				<li><input type="radio" id="C1_3_1_X" name="C1_3_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p><i>Bedeutung:</i> die Ruhe; eine entspannte Haltung</p>
+			<ul>
+				<li><input type="radio" id="C1_3_6" name="C1_3_2" value="die Ignoranz"></li>
+				<li><input type="radio" id="C1_3_7" name="C1_3_2" value="die Gelassenheit"></li>
+				<li><input type="radio" id="C1_3_8" name="C1_3_2" value="die Aufregung"></li>
+				<li><input type="radio" id="C1_3_9" name="C1_3_2" value="die Schläfrigkeit"></li>
+				<li><input type="radio" id="C1_3_10" name="C1_3_2" value="die Unwissenheit"></li>
+				<li><input type="radio" id="C1_3_2_X" name="C1_3_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p><i>Bedeutung:</i> der Vertrag; eine Abmachung zwischen mehreren Parteien</p>
+			<ul>
+				<li><input type="radio" id="C1_3_11" name="C1_3_3" value="das Abkommen"></li>
+				<li><input type="radio" id="C1_3_12" name="C1_3_3" value="die Gemeinschaft"></li>
+				<li><input type="radio" id="C1_3_13" name="C1_3_3" value="der Umstand"></li>
+				<li><input type="radio" id="C1_3_14" name="C1_3_3" value="das Rechtswesen"></li>
+				<li><input type="radio" id="C1_3_15" name="C1_3_3" value="die Gemeinheit"></li>
+				<li><input type="radio" id="C1_3_3_X" name="C1_3_3" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p><i>Bedeutung:</i> behalten; nicht weggeben</p>
+			<ul>
+				<li><input type="radio" id="C1_3_16" name="C1_3_4" value="vergeben"></li>
+				<li><input type="radio" id="C1_3_17" name="C1_3_4" value="aufbereiten"></li>
+				<li><input type="radio" id="C1_3_18" name="C1_3_4" value="umschieben"></li>
+				<li><input type="radio" id="C1_3_19" name="C1_3_4" value="einhalten"></li>
+				<li><input type="radio" id="C1_3_20" name="C1_3_4" value="aufbewahren"></li>
+				<li><input type="radio" id="C1_3_4_X" name="C1_3_4" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

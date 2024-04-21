@@ -1,0 +1,49 @@
+<fieldset data-points="4" data-time="90">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<ul>
+		<li><p>
+		<select id="B1_4_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Als</option>
+			<option>Wenn</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		ich nach Österreich gekommen bin, konnte ich nur wenig Deutsch sprechen.
+		</p></li>
+		<li><p>Bitte erinnern Sie mich daran, dass ich den Computer ausschalte,
+		<select id="B1_4_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>als</option>
+			<option>wenn</option>
+			<option>wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		ich gehe.
+		</p></li>
+		<li><p>
+		<select id="B1_4_6">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Als</option>
+			<option>Wenn</option>
+			<option>Wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		soll ich morgen im Büro sein?
+		</p></li>
+		<li><p>Ist es in Ordnung,
+		<select id="B1_4_7">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>als</option>
+			<option>wenn</option>
+			<option>wann</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		ich um neun Uhr komme?
+		</p></li>
+	</ul>
+</fieldset>

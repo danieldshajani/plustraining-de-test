@@ -1,0 +1,189 @@
+<fieldset data-points="4" data-time="240">
+	<legend>Wählen Sie die richtigen Antworten.</legend>
+	<p>Wählen Sie die korrekte Form.</p>
+	<div>
+		<p>Das
+		<select id="C1_1_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>letzte</option>
+			<option>letzten</option>
+			<option>letzter</option>
+			<option>letztes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		<select id="C1_1_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>große</option>
+			<option>großen</option>
+			<option>großer</option>
+			<option>es</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		,
+		<select id="C1_1_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wichtige</option>
+			<option>wichtigen</option>
+			<option>wichtiger</option>
+			<option>wichtiges</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Meeting fand am Mittwoch statt. Die 
+		<select id="C1_1_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>eingeladene</option>
+			<option>eingeladenen</option>
+			<option>eingeladener</option>
+			<option>eingeladenes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> SprecherInnen befassten sich mit 
+		<select id="C1_1_5">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>verschiedene</option>
+			<option>verschiedenen</option>
+			<option>verschiedener</option>
+			<option>verschiedenes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		<select id="C1_1_6">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>relevante</option>
+			<option>relevanten</option>
+			<option>relevanter</option>
+			<option>relevantes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Punkten zum 
+		<select id="C1_1_7">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>aktuelle</option>
+			<option>aktuellen</option>
+			<option>aktueller</option>
+			<option>aktuelles</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Thema. Trotz 
+		<select id="C1_1_8">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>unterschiedliche</option>
+			<option>unterschiedlichen</option>
+			<option>unterschiedlicher</option>
+			<option>unterschiedliches</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Standpunkte am 
+		<select id="C1_1_9">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>raue</option>
+			<option>rauen</option>
+			<option>rauer</option>
+			<option>raues</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Beginn des fünf Stunden 
+		<select id="C1_1_10">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>dauernde</option>
+			<option>dauernden</option>
+			<option>dauernder</option>
+			<option>dauerndes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Meetings waren sich am Ende alle 
+		<select id="C1_1_11">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>diskutierende</option>
+			<option>diskutierenden</option>
+			<option>diskutierender</option>
+			<option>diskutierendes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+
+		<select id="C1_1_12">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Anwesende</option>
+			<option>Anwesenden</option>
+			<option>Anwesender</option>
+			<option>Anwesendes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> einig. Manche 
+		<select id="C1_1_13">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>kleinere</option>
+			<option>kleineren</option>
+			<option>kleinerer</option>
+			<option>kleineres</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Änderungen wird es für alle geben, einige 
+		<select id="C1_1_14">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>größere</option>
+			<option>größeren</option>
+			<option>größerer</option>
+			<option>größeres</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Neuerungen für manch 
+		<select id="C1_1_15">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wenige</option>
+			<option>wenigen</option>
+			<option>weniger</option>
+			<option>weniges</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>. Eine 
+		<select id="C1_1_16">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>entsprechende</option>
+			<option>entsprechenden</option>
+			<option>entsprechender</option>
+			<option>entsprechendes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>E-Mail mit vielen 
+		<select id="C1_1_17">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>wichtige</option>
+			<option>wichtigen</option>
+			<option>wichtiger</option>
+			<option>wichtiges</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Informationen wird in den 
+		<select id="C1_1_18">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>folgende</option>
+			<option>folgenden</option>
+			<option>folgender</option>
+			<option>folgendes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Tagen an die 
+		<select id="C1_1_19">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>Betroffene</option>
+			<option>Betroffenen</option>
+			<option>Betroffener</option>
+			<option>Betroffenes</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>sowie an 
+		<select id="C1_1_20">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>weitere</option>
+			<option>weiteren</option>
+			<option>weiterer</option>
+			<option>weiteres</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select> Interessierte ausgeschickt.</p>
+	</div>
+</fieldset>

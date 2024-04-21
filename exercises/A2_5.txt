@@ -1,0 +1,32 @@
+<fieldset data-points="3" data-time="60">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>Legen Sie mir die Dokumente bitte auf 
+			<select id="A2_5_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>mein</option>
+				<option>meinen</option>
+				<option>meinem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			Schreibtisch. Aber Achtung! Es liegt schon sehr viel Papier auf
+			<select id="A2_5_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>Schreibtisch. Bitte passen Sie auf, dass nichts auf
+			<select id="A2_5_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Boden fällt.
+		</p>
+	</div>
+</fieldset>

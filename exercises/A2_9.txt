@@ -1,0 +1,61 @@
+<fieldset data-points="5" data-time="240">
+	<legend>Wählen Sie die richtigen Antworten.</legend>
+	<p>Sie sind im Einkaufszentrum. Schauen Sie sich den Plan genau an und beantworten Sie dann die Aufgaben unten. In welches Stockwerk müssen Sie gehen?</p>
+	<p class="shopping-centre-header">Einkaufszentrum Wien Mitte</p>
+	<p class="shopping-centre-header-small">4. Stock</p>
+	<p class="shopping-centre-text">Toiletten | Wickelraum | Garderobe | Fundbüro | Terrassencafé mit Aussicht</p>
+	<p class="shopping-centre-header-small">3. Stock</p>
+	<p class="shopping-centre-text">Computer | Technik | Software | Foto | CD & DVD | Radio & TV | Friseur | Beautysalon | Maniküre | Kosmetik</p>
+	<p class="shopping-centre-header-small">2. Stock</p>
+	<p class="shopping-centre-text">Sportartikel | Fitnessbekleidung | Erste Hilfe | Büro & Schreibwaren | Schulbedarf | Dekoration | Apotheke & Verbandsmaterial</p>
+	<p class="shopping-centre-header-small">1. Stock</p>
+	<p class="shopping-centre-text">Bade- und Strandmode | Spielwaren | Buchhandlung | Handwerkzeug & Mechanik | Autozubehör & Ersatzteile | Küche, Geschirr & Haushalt</p>
+	<p class="shopping-centre-header-small">Erdgeschoß</p>
+	<p class="shopping-centre-text">Kleidergeschäfte für Damen- und Herrenmode | Schuhe | Kindermoden | Pizzaria & Sushi-Restaurant</p>
+
+	<ul>
+		<li><p>Sie möchten einen Laptop kaufen.</p>
+			<ul>
+				<li><input type="radio" id="A2_9_1" name="A2_9_1" value="Erdgeschoß"></li>
+				<li><input type="radio" id="A2_9_2" name="A2_9_1" value="3. Stock"></li>
+				<li><input type="radio" id="A2_9_3" name="A2_9_1" value="anderes Stockwerk"></li>
+				<li><input type="radio" id="A2_9_1_X" name="A2_9_1" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+		<li><p>Sie sind krank und brauchen Medizin.</p>
+			<ul>
+				<li><input type="radio" id="A2_9_4" name="A2_9_2" value="Erdgeschoß"></li>
+				<li><input type="radio" id="A2_9_5" name="A2_9_2" value="3. Stock"></li>
+				<li><input type="radio" id="A2_9_6" name="A2_9_2" value="anderes Stockwerk"></li>
+				<li><input type="radio" id="A2_9_2_X" name="A2_9_2" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+
+		<li><p>Sie suchen Stifte und Hefte für ihre Tochter für die Schule.</p>
+			<ul>
+				<li><input type="radio" id="A2_9_7" name="A2_9_3" value="Erdgeschoß"></li>
+				<li><input type="radio" id="A2_9_8" name="A2_9_3" value="2. Stock"></li>
+				<li><input type="radio" id="A2_9_9" name="A2_9_3" value="anderes Stockwerk"></li>
+				<li><input type="radio" id="A2_9_3_X" name="A2_9_3" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+
+		<li><p>Sie möchten eine Winterjacke kaufen.</p>
+			<ul>
+				<li><input type="radio" id="A2_9_10" name="A2_9_4" value="Erdgeschoß"></li>
+				<li><input type="radio" id="A2_9_11" name="A2_9_4" value="4. Stock"></li>
+				<li><input type="radio" id="A2_9_12" name="A2_9_4" value="anderes Stockwerk"></li>
+				<li><input type="radio" id="A2_9_4_X" name="A2_9_4" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+
+		<li><p>Sie haben gestern ihren Schirm im Einkaufszentrum verloren.</p>
+			<ul>
+				<li><input type="radio" id="A2_9_13" name="A2_9_5" value="Erdgeschoß"></li>
+				<li><input type="radio" id="A2_9_14" name="A2_9_5" value="1. Stock"></li>
+				<li><input type="radio" id="A2_9_15" name="A2_9_5" value="anderes Stockwerk"></li>
+				<li><input type="radio" id="A2_9_5_X" name="A2_9_5" value="Ich weiß nicht." class="dontknow"></li>
+			</ul>
+		</li>
+	</ul>
+</fieldset>

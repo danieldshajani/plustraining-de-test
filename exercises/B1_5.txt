@@ -1,0 +1,61 @@
+<fieldset data-points="2" data-time="120">
+	<legend>Sie sehen die Temperatur. Wählen Sie dann die richtigen Antworten.</legend>
+	<div class="image-container image-count-1 image-widescreen">
+		<img src="images/kalender-alle.png" alt="Der Kalender zeigt: Vorgestern hatte es 18 Grad. Gestern hatte es 21 Grad. Heute hat es 26 Grad. Morgen wird es 30 Grad haben." >
+	</div>
+	<p>Was ist richtig?</p>
+	<ul>
+		<li><p>Heute ist es 
+		<select id="B1_5_1">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>so warm wie</option>
+			<option>warmer als</option>
+			<option>wärmer als</option>
+			<option>kälter als</option>
+			<option>kühler als</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		gestern.
+		</p></li>
+		<li><p>Gestern war es 
+		<select id="B1_5_2">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>so kalt wie</option>
+			<option>kalter als</option>
+			<option>kälter als</option>
+			<option>so kühl wie</option>
+			<option>warmer als</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		heute.
+		</p></li>
+		<li><p>Vorgestern war die Temperatur am 
+		<select id="B1_5_3">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>niedrig</option>
+			<option>niedriger</option>
+			<option>niedrigsten</option>
+			<option>hoch</option>
+			<option>höchsten</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		.
+		</p></li>
+		<li><p>Morgen wird es noch 
+		<select id="B1_5_4">
+			<option value="" selected disabled>Wählen Sie …</option>
+			<option>heiß wie</option>
+			<option>heißer als</option>
+			<option>heißester als</option>
+			<option>am heißesten</option>
+			<option>heißen</option>
+			<option disabled>– – –</option>
+			<option class="dontknow">Ich weiß nicht.</option>
+		</select>
+		heute.
+		</p></li>
+	</ul>
+</fieldset>

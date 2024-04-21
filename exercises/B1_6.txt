@@ -1,0 +1,79 @@
+<fieldset data-points="4" data-time="150">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>„Na, wie war dein freier Tag gestern?“</p>
+		<p>Anstrengend. Ich 
+			<select id="B1_6_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>habe</option>
+				<option>bin</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			so viel gemacht! Ich 
+			<select id="B1_6_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>habe</option>
+				<option>bin</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> früh aufgestanden. Meine Frau und ich 
+			<select id="B1_6_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>haben</option>
+				<option>sind</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> in ein nettes Café in die Stadt gegangen. Dann 
+			<select id="B1_6_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>hat</option>
+				<option>ist</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> sie zu ihrer Mutter auf Besuch gefahren und ich 
+			<select id="B1_6_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>habe</option>
+				<option>bin</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> das ganze Haus geputzt. Die Kinder 
+			<select id="B1_6_6">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>haben</option>
+				<option>sind</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> mit mir zuhause geblieben und 
+			<select id="B1_6_7">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>haben</option>
+				<option>sind</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> die ganze Zeit gespielt. Am Abend 
+			<select id="B1_6_8">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>haben</option>
+				<option>sind</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> wir gemeinsam ferngesehen. Danach waren wir alle so müde, dass wir früh eingeschlafen 
+			<select id="B1_6_9">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>haben</option>
+				<option>sind</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>. Es 
+			<select id="B1_6_10">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>hat</option>
+				<option>ist</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> also wirklich viel passiert!
+		</p>
+	</div>
+</fieldset>

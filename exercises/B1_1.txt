@@ -1,0 +1,85 @@
+<fieldset data-points="8" data-time="210">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div class="letter">
+		<p>Lieber Peter,</p>
+		<p>wie geht es dir? Es tut mir leid, dass ich 
+			<select id="B1_1_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>dich</option>
+				<option>euch</option>
+				<option>mich</option>
+				<option>dir</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+		so lange nicht mehr geschrieben habe. Ich war im Sommer sehr 
+			<select id="B1_1_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>ermüdend</option>
+				<option>verlangsamt</option>
+				<option>beschäftigt</option>
+				<option>genussvoll</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> – zuerst bin ich umgezogen und dann war ich auf Urlaub. Eigentlich wollte ich in die Berge fahren, aber dann habe ich mich doch für das Meer 
+			<select id="B1_1_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>entschiedet</option>
+				<option>entscheidend</option>
+				<option>entschieden</option>
+				<option>entscheidet</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>.</p>
+		<p>Der Urlaub war sehr 
+			<select id="B1_1_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>entspannende</option>
+				<option>entspannender</option>
+				<option>entspannend</option>
+				<option>entspannenden</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>. Ich habe viel gefeiert (und getrunken) und kaum geschlafen, aber ich war 
+			<select id="B1_1_5">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>wobei</option>
+				<option>dementsprechend</option>
+				<option>weshalb</option>
+				<option>trotzdem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> gar nicht müde. Wahrscheinlich, weil ich am Tag immer am Strand gelegen bin und gelesen habe. Du solltest meine Arme und Beine sehen – ich 
+			<select id="B1_1_6">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>bin</option>
+				<option>habe</option>
+				<option>werde</option>
+				<option>möchte</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> richtig braun geworden! </p>
+		<p>In den nächsten Wochen muss ich noch ein paar 
+			<select id="B1_1_7">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Geschirr</option>
+				<option>Möbel</option>
+				<option>Geschäfte</option>
+				<option>Kleidung</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> für meine neue Wohnung kaufen. Wenn alles fertig ist, musst du einmal vorbeikommen und mich 
+			<select id="B1_1_8">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>versuchen</option>
+				<option>ersuchen</option>
+				<option>ansuchen</option>
+				<option>besuchen</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>! Darauf freue ich mich schon!</p>
+		<p>Liebe Grüße <br />
+			Hannah
+		</p>
+	</div>
+</fieldset>

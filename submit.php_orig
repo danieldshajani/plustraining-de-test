@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Submit | Einstufungstest DE</title>
+</head>
+
+<body>
+
+<?php
+
+//SMTP needs accurate times, and the PHP time zone MUST be set
+//This should be done in your php.ini, but this is how to do it if you don't have access to that
+//date_default_timezone_set('Etc/UTC');
+
+require 'PHPMailer/PHPMailerAutoload.php';
+
+$hash = hash("md5", $_POST["email"] . time());
+
+$message = "<p>Jemand hat den Einstufungstest Deutsch abgeschlossen.</p>"
+	. "<p>Name: " . $_POST["name"] . "<br />"
+	. "Firma: " . $_POST["company"] . "<br />"
+	. "Standort: " . $_POST["location"] . "<br />"
+	. "E-Mail: " . $_POST["email"] . "<br />"
+	. "Telefon: " . $_POST["phone"] . "</p>"
+	. "<p>Ergebnis: " . $_POST["result"] . "<br />"
+	. "Zeitaufwand: " . $_POST["totalTime"] . "</p>"
+	. "<p>&Uuml;bersicht &uuml;ber die ausgew&auml;hlten Antworten: <br />"
+	. "<a href=\"http://de.test.loqui.at/results/" . $hash . ".html\">"
+	. "http://de.test.loqui.at/results/" . $hash . ".html</a></p>"
+	. "<p>Erreichte Punkte: " . $_POST["totalPoints"] . "</p>"
+	. "<p>von maximal " . $_POST["maxPoints"] . "</p>";
+
+$messageDebug = "<p>Jemand hat den Einstufungstest Deutsch abgeschlossen.</p>"
+	. "<p>Name: " . $_POST["name"] . "<br />"
+	. "Firma: " . $_POST["company"] . "<br />"
+	. "Standort: " . $_POST["location"] . "<br />"
+	. "E-Mail: " . $_POST["email"] . "<br />"
+	. "Telefon: " . $_POST["phone"] . "</p>"
+	. "<p>Ergebnis: " . $_POST["result"] . "<br />"
+	. "Zeitaufwand: " . $_POST["totalTime"] . "</p>"
+	. "<p>&Uuml;bersicht &uuml;ber die ausgew&auml;hlten Antworten: <br />"
+	. "<a href=\"http://de.test.loqui.at/results/" . $hash . ".html\">"
+	. "http://de.test.loqui.at/results/" . $hash . ".html</a></p>"
+	. "<p>Erreichte Punkte: " . $_POST["totalPoints"] . "</p>"
+	. "<p>von maximal " . $_POST["maxPoints"] . "</p>"
+	. "<p>Trace: <br />" . $_POST["trace"] . "</p>";
+
+// email for LOQUI
+$mail = new PHPMailer;
+$mail->isSMTP();
+//Enable SMTP debugging
+// 0 = off (for production use)
+// 1 = client messages
+// 2 = client and server messages
+$mail->SMTPDebug = 0;
+
+$mail->Host = "smtp.world4you.com";
+$mail->Port = 587;
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = "tsl";
+$mail->Username = "einstufungstest@loqui.at";
+$mail->Password = "loqui1524";
+$mail->setFrom("einstufungstest@loqui.at", "LOQUI");
+$mail->CharSet="UTF-8";
+
+$mail->addAddress("ergebnisse.de@loqui.at", "LOQUI - Einstufungstestergebnisse Deutsch");
+
+$mail->Subject = "Einstufungstest Deutsch | " . $_POST["name"];
+
+$mail->msgHTML($message);
+
+// email for debug
+$mailDebug = new PHPMailer;
+$mailDebug->isSMTP();
+//Enable SMTP debugging
+// 0 = off (for production use)
+// 1 = client messages
+// 2 = client and server messages
+$mailDebug->SMTPDebug = 0;
+
+$mailDebug->Host = "smtp.world4you.com";
+$mailDebug->Port = 587;
+$mailDebug->SMTPAuth = true;
+$mailDebug->SMTPSecure = "tsl";
+$mailDebug->Username = "einstufungstest@loqui.at";
+$mailDebug->Password = "loqui1524";
+$mailDebug->setFrom("einstufungstest@loqui.at", "LOQUI");
+$mailDebug->CharSet="UTF-8";
+
+$mailDebug->addAddress("einstufungstest-de@qwir.at", "Qwir");
+
+$mailDebug->Subject = "Einstufungstest Deutsch | " . $_POST["name"];
+
+$mailDebug->msgHTML($messageDebug);
+
+// send emails
+
+$mail->send();
+$mailDebug->send();
+
+// creating results website
+
+$results = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\">"
+	. "<title>LOQUI | Ergebnis Einstufungstest Deutsch</title>"
+	. "<meta name=\"HandheldFriendly\" content=\"True\">"
+	. "<meta name=\"MobileOptimized\" content=\"320\">"
+	. "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+	. "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">"
+	. "<meta http-equiv=\"cleartype\" content=\"on\">"
+	. "<link rel=\"stylesheet\" href=\"../style.css\" type=\"text/css\" />"
+	. "<link rel=\"stylesheet\" href=\"../style-results.css\" type=\"text/css\" />"
+	. "<link rel=\"stylesheet\" href=\"../style-results-print.css\" type=\"text/css\" />"
+	. "</head>"
+	. $_POST["html"]
+	. "</html>";
+
+file_put_contents("results/" . $hash . ".html", str_replace("\\", "", $results));
+
+?>
+</body>
+</html>

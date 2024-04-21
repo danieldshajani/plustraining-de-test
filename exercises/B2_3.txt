@@ -1,0 +1,12 @@
+<fieldset data-points="1" data-time="30">
+	<legend>Was ist richtig?</legend>
+	<p>„Hallo? Ich möchte bitte mit Frau Yamamoto sprechen.“</p>
+	<p>— Ja, einen Moment bitte.</p>
+	<ul>
+		<li><input type="radio" id="B2_3_1" name="B2_3" value="Ich verkünde Sie."></li>
+		<li><input type="radio" id="B2_3_2" name="B2_3" value="Ich verbinde Sie."></li>
+		<li><input type="radio" id="B2_3_3" name="B2_3" value="Ich verlege Sie."></li>
+		<li><input type="radio" id="B2_3_4" name="B2_3" value="Ich verknüpfe Sie."></li>
+		<li><input type="radio" id="B2_3_X" name="B2_3" value="Ich weiß nicht." class="dontknow"></li>
+	</ul>
+</fieldset>

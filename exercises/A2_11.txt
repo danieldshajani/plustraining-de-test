@@ -1,0 +1,40 @@
+<fieldset data-points="1" data-time="75">
+	<legend>Wählen Sie die richtigen Wörter.</legend>
+	<div>
+		<p>Die Linie 30A? Das ist der Bus,
+			<select id="A2_11_1">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select>
+			zur Bibliothek fährt. Der Bus, mit 
+			<select id="A2_11_2">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> du zur Sprachschule kommst, ist die Linie 31A. Und der Bus, 
+			<select id="A2_11_3">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>der</option>
+				<option>den</option>
+				<option>dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> du immer auf deinem Heimweg siehst, ist die Linie 11A. 
+			<select id="A2_11_4">
+				<option value="" selected disabled>Wählen Sie …</option>
+				<option>Der</option>
+				<option>Den</option>
+				<option>Dem</option>
+				<option disabled>– – –</option>
+				<option class="dontknow">Ich weiß nicht.</option>
+			</select> Bus musst du dann morgen nehmen, wenn du mich besuchen kommst.
+		</p>
+	</div>
+</fieldset>
