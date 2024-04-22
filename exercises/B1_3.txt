@@ -14,7 +14,7 @@
 	<ul>
 		<li>Wartezimmer <i>– Antwort für</i>
 			<select id="B1_3_1">
-				<option value="" selected disabled>Choose an answer …</option>
+				<option value="" selected disabled>Wählen Sie …</option>
 				<option>Lücke 1</option>
 				<option>Lücke 2</option>
 				<option>Lücke 3</option>
@@ -26,7 +26,7 @@
 		</li>
 		<li>Formular <i>– Antwort für</i>
 			<select id="B1_3_2">
-				<option value="" selected disabled>Choose an answer …</option>
+				<option value="" selected disabled>Wählen Sie …</option>
 				<option>Lücke 1</option>
 				<option>Lücke 2</option>
 				<option>Lücke 3</option>
@@ -38,7 +38,7 @@
 		</li>
 		<li>Termin <i>– Antwort für</i>
 			<select id="B1_3_3">
-				<option value="" selected disabled>Choose an answer …</option>
+				<option value="" selected disabled>Wählen Sie …</option>
 				<option>Lücke 1</option>
 				<option>Lücke 2</option>
 				<option>Lücke 3</option>
@@ -50,7 +50,7 @@
 		</li>
 		<li>Allergien <i>– Antwort für</i>
 			<select id="B1_3_4">
-				<option value="" selected disabled>Choose an answer …</option>
+				<option value="" selected disabled>Wählen Sie …</option>
 				<option>Lücke 1</option>
 				<option>Lücke 2</option>
 				<option>Lücke 3</option>
@@ -62,7 +62,7 @@
 		</li>
 		<li>Medikamente <i>– Antwort für</i>
 			<select id="B1_3_5">
-				<option value="" selected disabled>Choose an answer …</option>
+				<option value="" selected disabled>Wählen Sie …</option>
 				<option>Lücke 1</option>
 				<option>Lücke 2</option>
 				<option>Lücke 3</option>
