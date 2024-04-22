@@ -19,8 +19,8 @@
 		</select> aufhören und beginnen, regelmäßig Sport 
 		<select id="B2_5_3">
 			<option value="" selected disabled>Wählen Sie …</option>
-			<option>zu betreiben</option>
-			<option>betreiben</option>
+			<option>zu treiben</option>
+			<option>treiben</option>
 			<option disabled>– – –</option>
 			<option class="dontknow">Ich weiß nicht.</option>
 		</select>. Ich befürchte, schnell wieder 
