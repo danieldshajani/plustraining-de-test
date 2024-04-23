@@ -1,6 +1,6 @@
 <?php
 // Define the correct access code
-$correctAccessCode = "plustrainingog";
+$correctAccessCode = "plustrainingat";
 
 // Get the access code sent from the login form
 $data = json_decode(file_get_contents("php://input"));
